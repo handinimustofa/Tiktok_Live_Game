@@ -10,7 +10,7 @@ player3_nick = sys.argv[3]
 player4_nick = sys.argv[4]
 resume_command = sys.argv[5]
 
-client: TikTokLiveClient = TikTokLiveClient(unique_id='@tiktok_live_game', **({ 'enable_extended_gift_info': True}))
+client: TikTokLiveClient = TikTokLiveClient(unique_id='@tebakkatatiktok', **({ 'enable_extended_gift_info': True}))
 
 @client.on('connect')
 async def on_connect(_: ConnectEvent):
